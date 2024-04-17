@@ -4,67 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
 
-    <title>EpicTask</title>
+    <title>EProgress</title>
 </head>
-<body>
-     <h1>EpicTask</h1>
-     <section id="lista-de-tarefas">
-        <div class="nes-container with-title is-centered">
-        <p class="title">Figma</p>
-        <p>Criar o protótipo do épico</p>
-        <a href="#" class="nes-badge is-icon">
-            <span class="is-warning"><i class="nes-icon star is-small"></i></span>
-            <span class="is-primary">200</span>
-        </a>
-            <progress class="nes-progress is-success" value="40" max="100"></progress>
-            <button type="button" class="nes-btn is-primary">-</button>
-            <button type="button" class="nes-btn is-error">Apagar</button>
-            <button type="button" class="nes-btn is-primary">+</button>
-      </div>
+<body class="has-background-dark">
 
-      <div class="nes-container with-title is-centered">
-        <p class="title">Figma</p>
-        <p>Criar o protótipo do épico</p>
-        <a href="#" class="nes-badge is-icon">
-            <span class="is-warning"><i class="nes-icon star is-small"></i></span>
-            <span class="is-primary">200</span>
-        </a>
-            <progress class="nes-progress is-success" value="40" max="100"></progress>
-            <button type="button" class="nes-btn is-primary">-</button>
-            <button type="button" class="nes-btn is-error">Apagar</button>
-            <button type="button" class="nes-btn is-primary">+</button>
-      </div>
+    <h1 class="title has-text-white">EProgress</h1>
 
-      <div class="nes-container with-title is-centered">
-        <p class="title">Figma</p>
-        <p>Criar o protótipo do épico</p>
-        <a href="#" class="nes-badge is-icon">
-            <span class="is-warning"><i class="nes-icon star is-small"></i></span>
-            <span class="is-primary">200</span>
-        </a>
-            <progress class="nes-progress is-success" value="40" max="100"></progress>
-            <button type="button" class="nes-btn is-primary">-</button>
-            <button type="button" class="nes-btn is-error">Apagar</button>
-            <button type="button" class="nes-btn is-primary">+</button>
-      </div>
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-white">Minhas Séries</h1>
+            <div class="columns is-multiline">
+            <div class="column is-one-quarter">
+                <div class="series">
+                <div class="box">
+                    <h2 class="subtitle">Breaking Bad</h2>
+                    <p>Temporada 2</p>
+                    <span class="tag is-warning">13 episódios</span>
+                    <progress class="progress is-success" value="20" max="100"></progress>
+                    <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary">-</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-danger">Remover Série</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary">+</button>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
 
-      <div class="nes-container with-title is-centered">
-        <p class="title">Figma</p>
-        <p>Criar o protótipo do épico</p>
-        <a href="#" class="nes-badge is-icon">
-            <span class="is-warning"><i class="nes-icon star is-small"></i></span>
-            <span class="is-primary">200</span>
-        </a>
-            <progress class="nes-progress is-success" value="40" max="100"></progress>
-            <button type="button" class="nes-btn is-primary">-</button>
-            <button type="button" class="nes-btn is-error">Apagar</button>
-            <button type="button" class="nes-btn is-primary">+</button>
-      </div>
-    </section>
-</body>
+            <div class="column is-one-quarter">
+                <div class="series">
+                <div class="box">
+                    <h2 class="subtitle">Mr. Robot</h2>
+                    <p>Temporada 4</p>
+                    <span class="tag is-warning">12 episódios</span>
+                    <progress class="progress is-success" value="30" max="120"></progress>
+                    <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary">-</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-danger">Remover Série</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary">+</button>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="column is-one-quarter">
+                <div class="series">
+                <div class="box">
+                    <h2 class="subtitle">The Sopranos</h2>
+                    <p>Temporada 5</p>
+                    <span class="tag is-warning">13 episódios</span>
+                    <progress class="progress is-success" value="80" max="130"></progress>
+                    <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary">-</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-danger">Remover Série</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary">+</button>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="column is-one-quarter">
+                <div class="series">
+                <div class="box">
+                    <h2 class="subtitle">The Last Of Us</h2>
+                    <p>Temporada 1</p>
+                    <span class="tag is-warning">09 episódios</span>
+                    <progress class="progress is-success" value="60" max="90"></progress>
+                    <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary">-</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-danger">Remover Série</button>
+                    </p>
+                    <p class="control">
+                        <button class="button is-primary">+</button>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+      </section>
+  </body>
 </html>
