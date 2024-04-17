@@ -1,14 +1,10 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
+ @import "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css";
 
-.section {
-    background-color: #363636;
-}
 
 body {
-    background-color: #2b2b2b; 
-    color: #fff; 
-    font-family: 'Roboto', sans-serif; 
+    background-color: #161515;  
     padding-bottom: 2rem;
+    height: 100vh;
   
 }
 
@@ -16,22 +12,20 @@ body {
     color: #f0f0f0;
   }
   
-  
-  .box {
-    background-color: #3a3a3a; 
-    border-radius: 8px; 
-    padding: 1.5rem; 
-    margin-bottom: 1.5rem; 
+  .box{
+    width: 45vh;
   }
-  
-  
+
+  /*  
   .button {
     margin-right: 0.5rem; 
   }
   
  
   .progress {
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+    color: #181717;
+
   }
   
 
@@ -45,3 +39,4 @@ body {
     color: #f0f0f0; 
     margin-bottom: 0.5rem; 
   }
+  */
