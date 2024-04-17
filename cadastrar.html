@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" /> 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cadastrar.js" defer></script>
+</head>
+<body class="has-background-white">
+
+    <h1>Epic Task</h1>
+
+
+
+    <form action="">
+        <h2 class="nes-text is-primary">Cadastrar Tarefa</h2>
+        <div class="nes-field">
+            <label for="titulo">Titulo</label>
+            <input type="text" id="titulo" class="nes-input">
+            <span id="tituloerro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="nes-field">
+        <label for="descricao">Descrição</label>
+        <textarea id="descricao" class="nes-textarea"></textarea>
+        <span id="descricaoerro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="nes-field">
+            <label for="pontos">Pontos</label>
+            <textarea type="number" id="pontos" class="nes-textarea"></textarea>
+            <span id="pontoserro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="acoes">
+            <a href="/index.html" class="nes-btn">cancelar</a>
+            <button id='botao-cadastrar' class="nes-btn is-primary">salvar</button>
+        </div>
+    </form>
